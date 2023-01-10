@@ -1,0 +1,119 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: white;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  position: fixed;
+}
+
+.header-logo-left {
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  color: #e50043;
+}
+
+.links-right {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  color: #e50043;
+  display: flex;
+  flex-direction: row;
+  margin-right: 25px;
+  align-items: center;
+}
+
+.links-right > div {
+  margin-right: 50px;
+}
+
+.links-right > :last-of-type {
+  margin-right: 0px;
+}
+
+.heroblock-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 300;
+  color: #e50043;
+  background-image: url("images/evian_origins_logo.png");
+  height: 950px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 1090px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.heroblock-under {
+  display: flex;
+  width: 1440px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroblock-under-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border: 3px solid #f8bfc7;
+  border-radius: 20px;
+  width: 1040px;
+  margin-top: 150px;
+  padding: 25px;
+  display: flex;
+}
+
+.heroblock-under-text > div > p {
+  padding-bottom: 25px;
+}
+.heroblock-under-text > div > img {
+  margin: 0 40px;
+}
+
+.heroblock-bottles {
+  margin-top: 150px;
+  display: flex;
+}
+
+.wang {
+  margin: 30px;
+}
+
+.wang > p {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: 240px;
+  text-align: center;
+}
+
+.footer {
+  height: 140px;
+  width: 1440px;
+  background-color: #f8bfc7;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  color: white;
+  margin-top: 150px;
+}
