@@ -9,7 +9,7 @@
   height: 140px;
   display: flex;
   justify-content: space-between;
-  width: 1440px;
+  width: 100%;
   position: fixed;
 }
 
@@ -52,7 +52,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1440px;
   height: 1090px;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -60,7 +59,6 @@
 
 .heroblock-under {
   display: flex;
-  width: 1440px;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -105,7 +103,6 @@
 
 .footer {
   height: 140px;
-  width: 1440px;
   background-color: #f8bfc7;
   display: flex;
   align-items: center;

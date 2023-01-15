@@ -16,43 +16,20 @@
 
 .main {
   display: flex;
-}
-
-.leftcol {
-  border: 5px solid #e5e000;
-  border-radius: 30px;
-  width: 400px;
-  margin-top: 40px;
-  margin-left: 40px;
-  height: 800px;
-}
-
-.leftcol > p {
-  margin: 20px;
-  font-weight: bold;
+  gap: 30px;
 }
 
 .centercol {
   border: 5px solid #e5e000;
   border-radius: 30px;
   width: 400px;
-  margin-top: 40px;
-  margin-left: 40px;
   height: 800px;
+  margin: 50px 0;
 }
 
 .centercol > p {
   margin: 20px;
   font-weight: bold;
-}
-
-.rightcol {
-  border: 5px solid #e5e000;
-  border-radius: 30px;
-  width: 400px;
-  margin-top: 40px;
-  margin-left: 40px;
-  height: 800px;
 }
 
 .rightcol > p {
